@@ -1,0 +1,10 @@
+{
+  "AndroidLocatorsFile": "src/test/resources/JsonFiles/AndroidLocators.json",
+  "iOSLocatorsFile": "src/test/resources/JsonFiles/iOSLocators.json",
+  "ComboBoxValueFile": "src/test/resources/JsonFiles/ComboBoxValues.json",
+  "AppJsonFile": "src/test/resources/JsonFiles/App.json",
+  "AndroidServerURL": "http://127.0.0.1:4723/",
+  "iOSServerURL": "http://127.0.0.1:4723/",
+  "Success": "Success",
+  "Fail": "Fail"
+}

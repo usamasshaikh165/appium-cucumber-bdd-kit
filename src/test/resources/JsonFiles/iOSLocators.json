@@ -1,0 +1,17 @@
+{
+  "_comment": "Locator repository for iOS (Settings app). Same keys as AndroidLocators.json so feature files stay platform-neutral. locator = Id | XPath | Class | Name | AccessibilityId | Predicate | ClassChain",
+
+  "SettingsSearchBar":      { "locator": "AccessibilityId", "value": "Search" },
+  "SettingsSearchInput":    { "locator": "ClassChain",      "value": "**/XCUIElementTypeSearchField" },
+  "SearchResultTitles":     { "locator": "ClassChain",      "value": "**/XCUIElementTypeCell/XCUIElementTypeStaticText[1]" },
+
+  "NetworkInternetItem":    { "locator": "AccessibilityId", "value": "Wi-Fi" },
+  "InternetItem":           { "locator": "Predicate",       "value": "name == 'Wi-Fi' AND type == 'XCUIElementTypeStaticText'" },
+
+  "AboutDeviceItem":        { "locator": "AccessibilityId", "value": "General" },
+  "DeviceNameLabel":        { "locator": "AccessibilityId", "value": "About" },
+
+  "SettingsTitleList":      { "locator": "ClassChain",      "value": "**/XCUIElementTypeCell/XCUIElementTypeStaticText[1]" },
+  "ToastMessage":           { "locator": "ClassChain",      "value": "**/XCUIElementTypeAlert/**/XCUIElementTypeStaticText" },
+  "ComboBoxValues":         { "locator": "ClassChain",      "value": "**/XCUIElementTypePickerWheel" }
+}

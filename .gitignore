@@ -1,0 +1,22 @@
+# Build
+target/
+*.class
+
+# Test output
+Logs/
+Reports/
+*.log
+*.trx
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secrets / local overrides: never commit these
+.env
+src/main/resources/config.local.properties
+
+# Claude Code local permission cache
+.claude/settings.local.json

@@ -1,0 +1,4 @@
+{
+  "_comment": "Expected option sets for 'Validate ComboBox' style checks. Key them by combo box locator name.",
+  "ExampleDropdown": ["Option A", "Option B", "Option C"]
+}

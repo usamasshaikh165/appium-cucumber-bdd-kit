@@ -1,0 +1,21 @@
+{
+  "_comment": "Locator repository for the Android sample (built-in Settings app). locator = Id | XPath | Class | AccessibilityId | UiAutomator",
+
+  "SettingsSearchBar":      { "locator": "XPath", "value": "//android.widget.TextView[@text='Search settings']" },
+  "SettingsSearchInput":    { "locator": "XPath", "value": "//android.widget.EditText" },
+  "SearchResultTitles":     { "locator": "Id",    "value": "android:id/title" },
+
+  "NetworkInternetItem":    { "locator": "XPath", "value": "//android.widget.TextView[@text='Network & internet']" },
+  "InternetItem":           { "locator": "XPath", "value": "//android.widget.TextView[@text='Internet']" },
+  "AirplaneModeSwitch":     { "locator": "XPath", "value": "//*[@text='Airplane mode']/ancestor::android.widget.LinearLayout[1]//android.widget.Switch" },
+
+  "ConnectedDevicesItem":   { "locator": "XPath", "value": "//android.widget.TextView[@text='Connected devices']" },
+  "PairNewDeviceItem":      { "locator": "XPath", "value": "//android.widget.TextView[@text='Pair new device']" },
+
+  "AboutDeviceItem":        { "locator": "UiAutomator", "value": "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"About \"))" },
+  "DeviceNameLabel":        { "locator": "XPath", "value": "//android.widget.TextView[@text='Device name']" },
+
+  "SettingsTitleList":      { "locator": "Id",    "value": "android:id/title" },
+  "ToastMessage":           { "locator": "XPath", "value": "//android.widget.Toast" },
+  "ComboBoxValues":         { "locator": "XPath", "value": "//android.widget.ListView//android.widget.TextView" }
+}
